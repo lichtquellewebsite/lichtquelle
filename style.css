@@ -1,5 +1,10 @@
 /* ----------- Color Variables --------- */
-/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
+/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder. 
+
+font-family: 'Cormorant Infant', serif;
+font-family: 'Raleway', sans-serif;
+
+*/
 
 /* ----------- CSS RESET --------- */
 
@@ -7,6 +12,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
   
 img { max-width: 100%; height: auto; }
@@ -176,13 +183,14 @@ a.bg-image { display: block;}
 .uppercase    { text-transform: uppercase; }
 
 body {
-  font-family: 'Mulish', serif;  /* Add your font here */ 
+  font-family: 'Raleway', sans-serif;  /* Add your font here */ 
   color: var(--dark-text);
 }
 
 h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
+  font-family: 'Cormorant Infant', serif;
 }
 
 h2 { font-size: 2rem; }
@@ -194,7 +202,7 @@ h6 { font-size: 1.2rem; }
 p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
-  font-family: 'Martel', serif; 
+  font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 1rem;
 }
