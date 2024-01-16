@@ -162,10 +162,14 @@ html {
 
 a.bg-image { display: block;}
 
+.landscape-custom { padding-bottom: 30%;}
 .landscape     { padding-bottom: 66% ; }
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
+
+.border-radius-1 { border-radius: 14rem; }
+.border-radius-2 { border-radius: 12rem; }
 
 
 /* Background Position */
