@@ -123,6 +123,25 @@ html {
 .bg-light    { background-color: var(--light); }
 .bg-v-light  { background-color: var(--v-light); }
 
+.text-white { color: white;}
+
+.image-left img {
+  position: absolute;
+  left: -5rem;
+  top: 6rem;
+  width: 25vw;
+  border-radius: 3rem;
+}
+
+
+.image-right img {
+  position: absolute;
+  right: -5rem;
+  top: 6rem;
+  width: 25vw;
+  border-radius: 3rem;
+}
+
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
     background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
@@ -170,6 +189,7 @@ a.bg-image { display: block;}
 
 .border-radius-1 { border-radius: 14rem; }
 .border-radius-2 { border-radius: 12rem; }
+.border-radius { border-radius: 3rem;}
 
 
 /* Background Position */
@@ -197,7 +217,10 @@ h2, h3, h4, h5, h6 {
   font-family: 'Cormorant Infant', serif;
 }
 
-h2 { font-size: 2rem; }
+h2 { 
+  font-size: calc(1em + 2.4vw);
+  font-weight: 500;
+ }
 h3 { font-size: 1.8rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
@@ -244,7 +267,7 @@ a {
 }
 
 a:hover {
-  color: var(--featured-text); 
+  color: var(--light); 
 }
 
 p a {
@@ -253,7 +276,7 @@ p a {
 }
 
 p a:hover { 
-  color: var(--featured-text); 
+  color: var(--light); 
 }
 
 .button { 
@@ -292,6 +315,17 @@ p a:hover {
   color: var(--dark);
 }
 
+.index-behandlungen-nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.index-behandlungen-nav a:last-child {
+	margin-bottom: 0;
+}
+
 header nav a {
     padding: 0.25rem 0.5rem;
     display: block;
@@ -302,7 +336,7 @@ header nav a {
     font-weight: 500;
 }
 nav a:hover {
-  color: var(--featured-text);
+  color: var(--dark); 
 }
 
 /* ------------ Footer Styles -------------- */
