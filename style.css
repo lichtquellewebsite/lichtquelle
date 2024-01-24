@@ -150,6 +150,10 @@ html {
     background-repeat: no-repeat;
 }
 
+.bg-image-header {
+  background-image: url('/images/index/index-1.jpg');
+}
+
 .bg-overlay::after {
   z-index: 1;
   content: ""; 
@@ -337,6 +341,13 @@ header nav a {
 }
 nav a:hover {
   color: var(--dark); 
+}
+
+.logo-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14rem;
 }
 
 /* ------------ Footer Styles -------------- */
