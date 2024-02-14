@@ -186,6 +186,7 @@ html {
 a.bg-image { display: block;}
 
 .landscape-custom { padding-bottom: 30%;}
+.landscape-custom-2 { padding-bottom: 23%;}
 .landscape     { padding-bottom: 66% ; }
 .portrait-tall { padding-bottom: 175%; }
 .portrait      { padding-bottom: 125%; }
@@ -374,11 +375,18 @@ ul{
   padding-bottom: 11%;
 }
 
+.margin-custom-1 {
+  margin-right: 5%;
+  margin-bottom: 2%;
+  
+}
+
 .img-custom-position-1 {
   position: absolute;
   top: 3rem;
   z-index: 0;
 }
+
 
 .bluete-position-1 {
   position:absolute;
