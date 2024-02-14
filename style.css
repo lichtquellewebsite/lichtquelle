@@ -209,6 +209,10 @@ a.bg-image { display: block;}
 .right   { text-align: right; }
 .center  { text-align: center; }
 .uppercase    { text-transform: uppercase; }
+.quote { 
+  font-size: 2rem;
+  font-family: 'Cormorant Infant', serif;
+}
 
 body {
   font-family: 'Raleway', sans-serif;  /* Add your font here */ 
@@ -317,6 +321,7 @@ p a:hover {
   margin: 0.25rem 0.5rem;
   border-bottom: 1px solid var(--dark);
   color: var(--dark);
+  display: inline-block;
 }
 
 .index-behandlungen-nav a {
@@ -334,7 +339,6 @@ header nav a {
     padding: 0.25rem 0.5rem;
     display: block;
     text-decoration: none;
-    color: white;
     font-family: 'Cormorant Infant', serif;
     font-size: calc(1em + 1.9vw);
     font-weight: 500;
@@ -345,9 +349,43 @@ nav a:hover {
 
 .logo-header {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 14rem;
+  top: 6px;
+  right: 6px;
+  width: 12rem;
+}
+
+
+ul{
+  margin-left: 2rem;
+}
+
+/* -------------------- Custom Positions --------------------*/
+
+.custom-position-1 {
+  position: absolute;
+  right: 23%;
+  left: 23%;
+  top: 12%;
+  z-index: 1;
+}
+
+.margin-t-custom-1 {
+  margin-top: 42%;
+  padding-bottom: 11%;
+}
+
+.img-custom-position-1 {
+  position: absolute;
+  top: 3rem;
+  z-index: 0;
+}
+
+.bluete-position-1 {
+  position:absolute;
+  bottom: -7%;
+  right: 33%;
+  width: 10rem;
+  z-index: 0;
 }
 
 /* ------------ Footer Styles -------------- */
@@ -419,6 +457,10 @@ footer nav a {
 .dropdown-content a {
   display: block;
   padding: 0.2rem;
+}
+
+.flex-flip {
+  flex-flow: row-reverse wrap;
 }
 
 /* ------------ Burger Button / Mobile Menu Styles -------------- */

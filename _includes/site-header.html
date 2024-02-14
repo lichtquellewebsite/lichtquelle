@@ -1,9 +1,9 @@
 
 <header class="grid relative">
-  <div class="col-6 padded bg-image bg-image-header bg-header-left">
-    <a href="/" class="logo-header"> <img data-src="#" class="lazy logo-header"> </a>
+  <div class="col-6 padded bg-image bg-header-left" style="background-image:  url('{{ page.header-image }}') ;">
+    <a href="/" class="logo-header"> <img src="/icons/hauptlogo.png" class="logo-header"> </a>
   </div>
-  <div class="col-6 padded bg-featured">
+  <div class="col-6 padded bg-light">
     <nav class="header-nav">
       <a href="{{site.data.nav.url-1 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-1 %}current{% endif %}"> {{site.data.nav.text-1}} </a>
       <a href="{{site.data.nav.url-2 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-2 %}current{% endif %}"> {{site.data.nav.text-2}} </a>
