@@ -363,8 +363,8 @@ nav a:hover {
 
 .logo-header {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: -20px;
+  right: -20px;
   width: 12rem;
 }
 
@@ -778,8 +778,20 @@ hr.short.center {
 
 @media(max-width:64em) {
 
+  .logo-header {
+    width: 10rem;
+  }
+
 	.show-md { display: block; }
 	.hide-md { display: none;  }
+
+  .bluete-position-1 {
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 9rem;
+    z-index: 0;
+  }
 
 }
 
@@ -810,6 +822,15 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  .sm-min-height-50 { min-height: 70vh}
+
+  .logo-header {
+    position: absolute;
+    top: -7px;
+    right: -12px;
+    width: 9rem;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -824,4 +845,24 @@ hr.short.center {
       font-weight: 300;
       font-family: 'Martel', serif; 
     }
+
+    .sm-min-height-50 { min-height: 50vh}
+
+
+    .logo-header {
+      position: absolute;
+      top: -2px;
+      right: -7px;
+      width: 8rem;
+    }
+
+    .bluete-position-1 {
+      position:absolute;
+      bottom: 10px;
+      left: 10px;
+      width: 5rem;
+      z-index: 0;
+    }
+  
+
 }

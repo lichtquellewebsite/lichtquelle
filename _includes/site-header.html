@@ -1,10 +1,9 @@
 
 <header class="grid relative">
-  <div class="col-6 padded bg-image bg-header-left" style="background-image:  url('{{ page.header-image }}') ;">
-    <a href="/" class="logo-header"> <img src="/icons/hauptlogo.png" class="logo-header"> </a>
+  <div class="col-6_sm-12 sm-min-height-50 padded bg-image bg-header-left" style="background-image:  url('{{ page.header-image }}') ;">
   </div>
-  <div class="col-6 padded bg-light">
-    <nav class="header-nav">
+  <div class="col-6_sm-12 padded bg-light">
+    <nav class="header-nav relative">
       <a href="{{site.data.nav.url-1 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-1 %}current{% endif %}"> {{site.data.nav.text-1}} </a>
       <a href="{{site.data.nav.url-2 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-2 %}current{% endif %}"> {{site.data.nav.text-2}} </a>
       <a href="{{site.data.nav.url-3 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-3 %}current{% endif %}"> {{site.data.nav.text-3}} </a>
@@ -16,30 +15,12 @@
         <a href="{{site.data.nav.url-8 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-8 %}current{% endif %}"> {{site.data.nav.text-8}} </a>
       </div>
       <a href="{{site.data.nav.url-9 | replace:'.html',''}}" class="nav-links {% if page.url == site.data.nav.url-9 %}current{% endif %}"> {{site.data.nav.text-9}} </a>
+
+      <a href="/" class="logo-header"> <img src="/icons/hauptlogo.png" class="logo-header"> </a>
     </nav>
   </div>
 </header>
 
   
-<div class="mobile-menu"> 
-  <div class="mobile-logo">
-    <img data-src="/images/logos/r-logo.png" class="lazy">
-  </div>
-  <nav> 
-    <a href="/"> Start </a>
-    <a href="/ueber-mich"> Über mich </a>
-    <a href="/tierkinesiologie.html"> Tierkinesiologie </a>
-    <div class="dropdown-content-mobile">
-      <a href="/energetik.html"> Energetik </a>
-      <a href="/tierkommunikation.html"> Tierkommunikation </a>
-      <a href="/heilsteine.html"> Heilsteine </a>
-      <a href="/reiki.html"> Reiki </a>
-      <a href="/farbtherapie.html"> Farbtherapie </a>
-      <a href="/bachblueten.html"> Bachblüten </a>
-    </div>
-    <a href="/termin-buchen"> Termin buchen </a>
-    <a href="/shop"> Shop </a>
-    <a href="/kontakt"> Kontakt </a>
-  </nav>
-</div> 
+
 
