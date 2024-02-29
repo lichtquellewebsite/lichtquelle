@@ -325,7 +325,7 @@ p a:hover {
 /* ------------ Header & Hamburger Menu -------------- */
 
 .dropdown-content-mobile a {
-  font-size: calc(0.7em + 1.8vw);
+  font-size: calc(0.9em + 1.8vw);
   font-style: italic;
   font-weight: 300;
 }
@@ -894,6 +894,14 @@ hr.short.center {
 
     .index-behandlungen-nav a {
       font-size: 1.4rem;
+  }
+
+  .button {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
   
 
