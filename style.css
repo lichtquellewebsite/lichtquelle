@@ -425,6 +425,10 @@ footer a {
   font-weight: 200;
 }
 
+footer a:hover {
+    color: var(--dark);
+}
+
 footer nav a {
   text-align: right;
   display: block;
@@ -793,6 +797,10 @@ hr.short.center {
     z-index: 0;
   }
 
+  .index-behandlungen-nav a {
+    font-size: 1.8rem;
+}
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -831,6 +839,26 @@ hr.short.center {
     width: 9rem;
   }
 
+  .index-behandlungen-nav a {
+    font-size: 1.6rem;
+}
+
+.image-right img {
+  position: absolute;
+  right: -3rem;
+  top: 6rem;
+  width: 25vw;
+  border-radius: 3rem;
+}
+
+.image-left img {
+  position: absolute;
+  left: -3rem;
+  top: 6rem;
+  width: 25vw;
+  border-radius: 3rem;
+}
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -863,6 +891,10 @@ hr.short.center {
       width: 5rem;
       z-index: 0;
     }
+
+    .index-behandlungen-nav a {
+      font-size: 1.4rem;
+  }
   
 
 }
