@@ -882,6 +882,7 @@ hr.short.center {
       top: -2px;
       right: -7px;
       width: 8rem;
+      z-index: 0;
     }
 
     .bluete-position-1 {
