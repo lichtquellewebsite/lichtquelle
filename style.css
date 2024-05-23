@@ -119,6 +119,25 @@ html {
 
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
+
+.bg-featured-seminare {
+  background-color: var(--featured);
+  border-radius: 2rem;
+  padding: 5%;
+}
+.seminar-datum-bg {
+  background-color: var(--dark);
+  border-radius: 10rem;
+  padding: 3%;
+  color: white;
+  text-align: center;
+}
+.seminar-datum-bg p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
 .bg-medium   { background-color: var(--medium); }
 .bg-light    { background-color: var(--light); }
 .bg-v-light  { background-color: var(--v-light); }
